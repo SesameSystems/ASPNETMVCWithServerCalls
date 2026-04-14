@@ -72,8 +72,9 @@
     <Reference Include="Forge.Persistence, Version=1.1.0.0, Culture=neutral, PublicKeyToken=97960309cfe8d317, processorArchitecture=MSIL">
       <HintPath>packages\Forge.Persistence.1.1.0\lib\net40\Forge.Persistence.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=2.0.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\..\DKCommunication\packages\log4net.2.0.14\lib\net45\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=3.3.0.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+      <HintPath>..\..\DKCommunication\packages\log4net.3.3.0\lib\net462\log4net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\DKCommunication\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
